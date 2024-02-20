@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.StringCalculatorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-02-20T05:49:51" hostname="LAPTOP-205J7BQ6" time="0.061">
+  <properties/>
+  <testcase name="checkTheMultipleError()" classname="org.example.StringCalculatorTest" time="0.023"/>
+  <testcase name="addWithEndingComma()" classname="org.example.StringCalculatorTest" time="0.003"/>
+  <testcase name="addWithCustomDelimiterSemicolon()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithMultipleNegativeNumbers()" classname="org.example.StringCalculatorTest" time="0.007"/>
+  <testcase name="addDecimalNumbers()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addSingleNumber()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="isEmptyString()" classname="org.example.StringCalculatorTest" time="0.0"/>
+  <testcase name="addWithCustomDelimiterPipe()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithCustomDelimiterSep()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithMixedDelimiter()" classname="org.example.StringCalculatorTest" time="0.005"/>
+  <testcase name="addWithTrailingComma()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithNegativeNumbers()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithNewLineDelimiter()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <testcase name="addWithCommas()" classname="org.example.StringCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[Negative not allowed here: -1
+Number expected at position: 1 but found this: ,
+Negative not allowed here: -2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
